@@ -1,0 +1,19 @@
+[package]
+name = "axios"
+version = "0.1.0"
+authors = ["Soumyadip Moni <avater.clasher@gmail.com>"]
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "axios"
+
+[dependencies]
+actix-web = "4.3.1"
+tokio = "1.26.0"
+
+[dev-dependencies]
+reqwest = "0.11"
